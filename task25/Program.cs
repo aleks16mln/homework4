@@ -7,12 +7,3 @@
 
 Console.WriteLine("Введите число A : ");
 int A = Convert.ToInt32(Console.ReadLine());
-int factorial = 1;
-int i = 1;
-while (i <= N)
-{
-    factorial = factorial * i;
-    i++;
-}
-
-Console.WriteLine(factorial);
